@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html -->
+        <title>Oh My Goddess</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caesar+Dressing&display=swap"> 
+    </head>
+
+    <body class="">
+
+        <!-- Navigation Bar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-light-grey">
+                <!--<span class="branding w3-bar-item w3-mobile">
+                    Oh My Goddess
+                </span>-->
+                <span class="w3-right w3-mobile">
+                    <a class="w3-bar-item w3-button w3-hover-green" href="#">Home</a>
+                    <a class="w3-bar-item w3-button w3-hover-green w3-hide-small" href="#hosts">Hosts</a>
+                    <a class="w3-bar-item w3-button w3-hover-green w3-hide-small" href="#listen">Listen</a>
+                    <a class="w3-bar-item w3-button w3-hover-green w3-hide-small" href="#media">Connect</a>
+                    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" 
+                    href="javascript:void(0)" onclick="hamburgerFunction()">&#9776;</a>
+                </span>
+            </div> 
+
+            <div id="demo" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium">
+                <a class="w3-bar-item w3-button w3-hover-green" href="#hosts">Hosts</a>
+                <a class="w3-bar-item w3-button w3-hover-green" href="#listen">Listen</a>
+                <a class="w3-bar-item w3-button w3-hover-green" href="#media">Connect</a>
+            </div>
+        </div>
+
+        <!-- Showcase -->
+        <section class="showcase">
+            <div class="w3-container w3-animate-opacity w3-padding-large">
+                <div class="w3-center">
+                    <img class="w3-image" src="img/banner.png">
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-col m5 w3-mobile">
+                        <img class="w3-image" src="img/logo.jpg">
+                    </div>
+                    <div class="w3-col m7 w3-mobile">
+                        <div class=" w3-center">
+                            <h1 class="w3-text-shadow">HELLO GODDESS</h1>
+                            <hr>
+                            <p class="">This is the Oh My Goddess podcast... in website form</p>
+                            <a class="w3-button w3-amber w3-large w3-opacity" href="#listen">Listen in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </section>
+        
+        <!-- Podcast -->
+        <section class="section w3-amber">
+            <div class="w3-container w3-center">
+                <h2>THE PODCAST</h2>
+                <p>Oh My Goddess! is a podcast where two gal pals discuss inspiring women, both mythological and modern. 
+                This podcast explores fiction and nonfiction women and how they shape our culture and reality today. 
+                Come join us for laughs, encouragement and of course, our favorite Goddesses!
+                Co-hosted by Taylor Rife and Stephanie Earl.
+                </p>
+            </div>
+        </section>
+
+        <!-- Hosts -->
+        <section id="hosts" class="section w3-light-green">
+            <div class="w3-container w3-center">
+                <h2>YOUR HOSTS</h2>
+                <div class="w3-container w3-center">
+                    <div class="w3-row">
+                        <div class="w3-col m6 w3-padding-small">
+                            <div class="w3-card-2 w3-padding-small">
+                                <img src="img/taylor2.jpg" class="w3-image"></br>
+                                <h2>TAYLOR</h2>
+                                <p>Introducing Taylor! Taylor is a Nashville TN native and a lover of all things podcast and 
+                                social media. After her day job, you can find her reselling on Poshmark, playing with her chihuahua 
+                                Winnie or binge watching true crime on Netflix. This self proclaimed girl boss is excited to be 
+                                celebrating all the other bomb women </p>
+                            </div>
+                        </div>
+                        <div class="w3-col m6 w3-padding-small">
+                            <div class="w3-card-2 w3-padding-small">
+                                <img src="img/stephanie2.jpg" class="w3-image">
+                                <h2>STEPHANIE</h2>
+                                <p>Introducing Stephanie! She is a Special Education Science teacher in Northern Virginia. 
+                                She loves lazy days snuggling her cat, Blue, and checking out new breweries with her fiancé, David. 
+                                Obsessed with: everything bagels, Buffy the Vampire Slayer, ghost stories, and badass females</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Listen Up -->
+        <section id="listen" class="section w3-light-grey">
+            <div class="w3-container w3-center">
+                <h2>LISTEN UP</h2>
+                <p>Find Oh My Goddess episodes on any of these streamming services</p>
+                <div class="w3-container w3-center">
+                    <div class="w3-row">
+                        <div class="w3-col m3 s6 w3-padding-small">
+                            <a href="https://open.spotify.com/show/7ssD6jLcGM6QIwlHqWqLI4">    
+                                <i class="fa fa-spotify w3-hover-opacity"></i>
+                            </a>
+                        </div>
+                        <div class="w3-col m3 s6 w3-padding-small">
+                            <a href="https://podcasts.apple.com/us/podcast/welcome-to-oh-my-goddess/id1476636438?i=1000446930340">
+                                <i class="fa fa-podcast w3-hover-opacity"></i>
+                            </a>
+                        </div>
+                        <div class="w3-col m3 s6 w3-padding-small">
+                            <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9kMzgzZjk0L3BvZGNhc3QvcnNz">
+                                <i class="fa fa-google w3-hover-opacity"></i>
+                            </a>
+                        </div>
+                        <div class="w3-col m3 s6 w3-padding-small">
+                                <a href="https://anchor.fm/ohmygoddess">
+                                    <i class="fa fa-anchor w3-hover-opacity"></i>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+                <p>[Insert YouTube media here]</p>
+            </div>
+        </section>
+
+        <!-- Social Media Heading -->
+        <section id="media" class="section w3-amber">
+            <div class="w3-container w3-center">
+                <h1 class="w3-text-shadow">CONNECT WITH US</h1>
+            </div>
+        </section>
+
+        <!-- Social Media -->
+        <section class="section w3-light-grey">
+            <div class="w3-container w3-center">
+                <div class="w3-row">
+                    <div class="w3-col s4">
+                        <a href="https://www.facebook.com/ohmygoddesspodcast/">
+                            <i class="fa fa-facebook-f w3-padding-small w3-hover-opacity"></i>
+                        </a>
+                    </div>
+                    <div class="w3-col s4">
+                        <a href="default.asp">
+                            <i class="fa fa-twitter w3-padding-small w3-hover-opacity"></i>
+                        </a>   
+                    </div>
+                    <div class="w3-col s4">
+                        <a href="https://www.instagram.com/ohmygoddesspodcast/">
+                            <i class="fa fa-instagram w3-padding-small w3-hover-opacity"></i>
+                        </a>
+                    </div>
+                </div>
+                <p>Email us about the Goddess in your life at </br><a href = "mailto:ohmygoddesspodcast@gmail.com">ohmygoddesspodcast@gmail.com</a></p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="w3-black w3-padding-large w3-center">
+            <p>Oh My Goddess &copy; 2020</p>
+        </footer>
+
+        <script>
+            function hamburgerFunction(id) {
+                var x = document.getElementById("demo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+    </body>
+</html>
